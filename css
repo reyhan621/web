@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Reyhan Muhammad Fauzan </title>
+	<!--Google Font-->
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+	<nav>
+		<img id ="navbar-logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" width="150">
+		<ul>
+			<li> Home</li>
+			<li>
+				<a href=".About Us.html"> About Us</a>
+			</li>
+			<li> 
+				<a href="Contact Us.html"> Contact Us</a>
+			</li>
+		</ul>
+	</nav>
+
+</body>
+</html>
+
+## contact us
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Ini Contact Us</title>
+</head>
+<body>
+	<h1> Ini Kontak Kami</h1>
+
+</body>
+</html>
+
+## about us
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Ini About Us </title>
+</head>
+<body>
+	<h1> Ini Tentang Kita </h1>
+
+</body>
+
+## style.css
+
+/* 
+Author : Reyhan Muhammad Fauzan
+Type : Css
+*/
+
+body{
+	margin:0;
+	padding: 0;
+	font-family: "Source Sans Pro";
+}
+
+nav {
+	background-color: #FAFAFA;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+
+	/* atas kanan bwah kiri*/
+	padding: 10px 10px 10px 10px;
+	/*ataskanan bawahkiri*/
+	padding: 10px 10px;
+
+}
+
+ul{
+	list-style-type: none;
+	padding: 0px;
+	float: right;
+}
+
+nav ul li{
+	display: inline-block;
+	padding:25px;
+	letter-spacing: 2px;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+#navbar-logo{
+	padding-left: 20px;
+}
